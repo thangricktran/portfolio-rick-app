@@ -1,16 +1,17 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.0rem;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.2rem;
+  }
 }
 
-* {
-  box-sizing: border-box;
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.4rem;
+  }
 }
