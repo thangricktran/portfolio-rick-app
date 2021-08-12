@@ -7,7 +7,6 @@
     "dev-node": "node server.js",
     "vercel-build": "npm run prepare && next build",
     "vercel-start": "next start",
-    "build": "next build",
     "start-dev": "cross-env NODE_ENV=production node server.js",
     "start": "next start",
     "lint": "next lint"
