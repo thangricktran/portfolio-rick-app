@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "dev-node": "node server.js",
+    "dev": "next",
     "build": "next build",
-    "start-dev": "cross-env NODE_ENV=production node server.js",
     "start": "next start",
     "lint": "next lint"
   },
@@ -18,7 +16,7 @@
     "cookies": "^0.8.0",
     "express": "^4.17.1",
     "moment": "^2.29.1",
-    "next": "^11.0.0",
+    "next": "^11.0.1",
     "react": "17.0.2",
     "react-datepicker": "^4.1.1",
     "react-dom": "17.0.2",
